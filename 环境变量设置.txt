@@ -1,0 +1,27 @@
+mongod.exe --logpath "c:\data\mongodb_log\mongodb.log" --logappend
+
+
+
+
+
+--dbpath "c:\data\db" --port 27017 --serviceName "mongodb" --serviceDisplayName "mongodb" --install
+
+
+JAVA7
+JAVA_HOME=C:\Java8\jdk1.8.0_144
+CLASSPATH=.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+PATH=;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+
+
+
+JAVA8
+JAVA_HOME=C:\Java8\jdk1.8.0_144
+CLASSPATH=.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+PATH=;%JAVA_HOME%\bin;%JAVA_HOME%\jre1.8.0_144\bin;
+
+
+
+
+
+
+
